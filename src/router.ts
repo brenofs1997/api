@@ -31,7 +31,9 @@ router.get('/orders', listOrders);
 
 router.post('/categories', createCategory);
 router.post('/products', upload.single('image'), createProduct);
-router.post('/products/:categoryId/products', listProductsByCategory);
+
+router.get('/categories/:categoryId/products', listProductsByCategory);
+
 router.post('/orders', createOrder);
 
 router.patch('/orders/:orderId', changeOrderStatus);
