@@ -30,4 +30,3 @@ Por fim para iniciar o servidor, rode o comando:
 npm run dev
 ```
 
-> Atenção: não esqueça de iniciar o servidor antes de iniciar o projeto web
